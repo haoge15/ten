@@ -63,4 +63,8 @@ document.cookie="popped=yes"
 //--> 
 
 </SCRIPT>
+var returnvalue = "";
 
+if (document.cookie.length > 0) {
+
+offset = document.cookie.indexOf(search)
